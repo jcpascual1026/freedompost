@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins';
+  width: 100%;
+  height: 100%;
+
+}
+html{
+scroll-behavior: smooth;
+}
+
+/* DONT DELETE */
+.displayHam{
+
+  display: none;
+}
+/*-------------*/
+
+.fd {
+
+  padding: 5%;
+  }
+  
+  .fd h1{
+      font-size: 4.2rem;
+      text-align: center;
+      
+      margin: 1em;
+      margin-bottom: -5%;
+      
+  }
+  
+  .btntags {
+      font-size: 0.8rem;
+      font-family: 'Poppins';
+      color: #fafafa;
+      text-transform: uppercase;
+      padding: 1.3vh 2.4vh;
+      border-radius: 10px;
+      border: 1px solid black;
+      background: #252525;
+      box-shadow: 3px 3px 3px 3px #8d8989;
+      cursor: pointer;
+      margin: 0.3em;
+    }
+    
+    .btntags:active {
+      box-shadow: none;
+      transform: translate(3px, 3px);
+    }
+    
+    .tags{
+      
+      justify-items: center;
+      padding: 7.2%;
+    
+    }
+  
+  .btn {
+      border: none;
+      width: 15em;
+      height: 5em;
+      border-radius: 1em;
+      display: flex;
+      background: #1C1A1C;
+      cursor: pointer;
+      transition: all 450ms ease-in-out;
+      margin: 50px 0 10px 0;
+    }
+  
+    .text {
+      font-weight: 600;
+      color: #AAAAAA;
+      font-size: medium;
+    }
+    
+    .btn:hover {
+      background: linear-gradient(0deg,var(--third-color),var(--fifth-color));
+      box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+      inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+      0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+      0px 0px 180px 0px var(--third-color);
+      transform: translateY(-2px);
+    }
+    
+    .btn:hover .text {
+      color: white;
+    }
+    
+    .btn:hover .sparkle {
+      fill: white;
+      transform: scale(1.2);
+    } 
+  
+.card img{
+  width: 40vh;
+  height: auto;
+}
+
+.postcontainer{
+  margin: 2vh 20vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+}
+  
+
+  
